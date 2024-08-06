@@ -64,4 +64,37 @@ header {
     background-color: #fbcb9e;
     transition: 1s;
     border-radius: 50px;
-} 
+}
+
+.home {
+    display: flex;
+    margin-top: 80px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main h1 {
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+    width: 555px;
+    height: 140px;
+    display: flex;
+    text-align: center;
+}
+
+.main p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 555px;
+    height: 60px;
+    text-align: center;
+}
