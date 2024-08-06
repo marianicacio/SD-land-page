@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Rubik", sans-serif;
+    ;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header li {
+    list-style: none;
+}
+
+.header a {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+    line-height: 18.96px;
+    text-align: left;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    gap: 20px;
+}
+
+.login h1 {
+    color: #0B132A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    text-align: left;
+}
+
+.login button {
+    color: #F53855;
+    border: #F53855 solid 1px;
+    border-radius: 50px;
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #fbcb9e;
+    transition: 1s;
+} 
