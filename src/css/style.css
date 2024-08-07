@@ -2,7 +2,6 @@
 
 body {
     font-family: "Rubik", sans-serif;
-    ;
 }
 
 header {
@@ -27,6 +26,7 @@ header {
     color: #4F5665;
     line-height: 18.96px;
     text-align: left;
+    text-decoration: none;
 }
 
 .logo {
@@ -68,11 +68,16 @@ header {
 
 .home {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 80px;
+    gap: 20px;
 }
 
 .main {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -96,5 +101,102 @@ header {
     text-align: left;
     width: 555px;
     height: 60px;
+    text-align: left;
+}
+
+.main button {
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F53838;
+    color: #FFFFFF;
+    box-shadow: 5px 10px 10px #F5383859;
+}
+
+.users {
+    display: flex;
+}
+
+.users p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
     text-align: center;
+    margin-top: 0px;
+    color: #4F5665;
+    margin-left: 5px;
+}
+
+.users strong {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 0px;
+    color: #0B132A;
+}
+
+.locations {
+    display: flex;
+}
+
+.locations p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    color: #4F5665;
+    margin-left: 5px;
+}
+
+.locations strong {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 0px;
+    color: #0B132A;
+}
+
+.servers {
+    display: flex;
+}
+
+.servers p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    color: #4F5665;
+    margin-left: 5px;
+}
+
+.servers strong {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 0px;
+    color: #0B132A;
+}
+
+.linha {
+    height: 125px;
+    border: solid 2px #EEEFF2;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    gap: 120px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
 }
