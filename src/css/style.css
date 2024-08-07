@@ -200,3 +200,50 @@ header {
     background-color: #FFFFFF;
     border-radius: 10px;
 }
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 130px;
+}
+
+.feature-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-info h1 {
+    width: 383.41px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: #0B132A;
+}
+
+.feature-info p {
+    width: 427.88px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+}
+
+.feature-list li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.feature-list img {
+    width: 24px;
+    height: 24px;
+}
