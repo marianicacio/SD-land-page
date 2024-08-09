@@ -273,6 +273,9 @@ header {
 .plans {
     margin-top: 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
     gap: 120px;
 }
 
@@ -287,12 +290,23 @@ header {
     height: 760px;
 }
 
-.plan-free ul, li {
+.plan-free ul {
     list-style: none;
+}
+
+.plan-free h1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
 }
 
 .plan-ul li {
     display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .plan-ul img {
@@ -301,7 +315,49 @@ header {
 }
 
 .plan-ul p {
-    text-align: center;
-    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+    width: 156px;
+    height: 30px;
 }
 
+.plan-standard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    width: 330px;
+    height: 760px;
+}
+
+.plan-standard h1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.plan-premium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    width: 330px;
+    height: 760px;
+}
+
+.plan-premium h1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
