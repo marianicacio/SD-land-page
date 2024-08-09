@@ -361,3 +361,43 @@ header {
     text-align: center;
     color: #0B132A;
 }
+
+.global {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.global h1 {
+    width: 383.41px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.global p {
+    width: 555px;
+    height: 60px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.global img {
+    margin-top: 100px;
+}
+
+.redes {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
