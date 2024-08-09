@@ -20,7 +20,6 @@ header {
 }
 
 .header a {
-    font-family: Rubik;
     font-size: 16px;
     font-weight: 400;
     color: #4F5665;
@@ -506,4 +505,62 @@ input:nth-of-type(3):checked~main#carousel {
 
 .inputs input {
     margin-top: -40px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.align-sub {
+    background-color: #FFFFFF;
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    display: flex;
+    gap: 300px;
+}
+
+.subscribe button {
+    width: 250px;
+    height: 85.29px;
+    border-radius: 10px;
+    background-color: #F53838;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    box-shadow: 5px 10px 10px #F5383859;
+}
+
+.subscribe-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin: 50px;
+}
+
+.subscribe-info h1 {
+    width: 371.61px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+}
+
+.subscribe-info p {
+    width: 410px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
 }
