@@ -526,7 +526,7 @@ input:nth-of-type(3):checked~main#carousel {
 
 .subscribe button {
     width: 250px;
-    height: 85.29px;
+    height: 60px;
     border-radius: 10px;
     background-color: #F53838;
     color: #FFFFFF;
@@ -617,4 +617,8 @@ input:nth-of-type(3):checked~main#carousel {
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
+}
+
+.footer-column a {
+    text-decoration: none;
 }
