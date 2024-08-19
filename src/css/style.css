@@ -8,6 +8,13 @@ header {
     margin-top: 20px;
 }
 
+nav {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
 .header {
     display: flex;
     gap: 70px;
@@ -15,11 +22,11 @@ header {
     justify-content: center;
 }
 
-.header li {
+nav li {
     list-style: none;
 }
 
-.header a {
+nav a {
     font-size: 16px;
     font-weight: 400;
     color: #4F5665;
@@ -341,6 +348,30 @@ header {
     color: #0B132A;
 }
 
+.plan-button h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.plan-button button {
+    width: 177.88px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    background-color: transparent;
+    color: #F53838;
+}
+
+.plan-button button:hover {
+    background-color: #f1cfae;
+    transition: 1s;
+    border-radius: 50px;
+}
+
 .plan-premium {
     display: flex;
     flex-direction: column;
@@ -566,8 +597,10 @@ input:nth-of-type(3):checked~main#carousel {
     text-align: left;
 }
 
+
 .footer-section {
     display: flex;
+    justify-content: center;
     margin-top: 200px;
     background-color: #F8F8F8;
     width: 100%;
