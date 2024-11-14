@@ -655,3 +655,44 @@ input:nth-of-type(3):checked~main#carousel {
 .footer-column a {
     text-decoration: none;
 }
+
+@media (max-width: 420px) {
+    nav {
+        display: none;
+    }
+
+    .buttons {
+        gap: 0px;
+    }
+    
+    .enter button {
+        font-size: 12px;
+        width: 100px;
+    }
+    
+    .login button {
+        width: 70px;
+        height: 45px;
+        font-size: 12px;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+    }
+
+    .home img {
+        width: 350px;
+        height: auto;
+    }
+
+    .main h1 {
+        font-size: 30px;
+        line-height: 50px;
+        width: 355px;
+    }
+    
+    .main p {
+        width: 355px;
+        margin-bottom: 80px;
+    }
+}
