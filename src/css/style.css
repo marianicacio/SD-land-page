@@ -661,6 +661,10 @@ input:nth-of-type(3):checked~main#carousel {
         display: none;
     }
 
+    .header {
+        gap: 50px;
+    }
+
     .buttons {
         gap: 0px;
     }
