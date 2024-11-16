@@ -662,7 +662,7 @@ input:nth-of-type(3):checked~main#carousel {
     }
 
     .header {
-        gap: 50px;
+        gap: 30px;
     }
 
     .buttons {
@@ -698,5 +698,17 @@ input:nth-of-type(3):checked~main#carousel {
     .main p {
         width: 355px;
         margin-bottom: 80px;
+    }
+
+    .info-section {
+        flex-direction: column;
+    }
+
+    .linha {
+        display: none;
+    }
+
+    .feature {
+        flex-direction: column;
     }
 }
