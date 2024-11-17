@@ -711,4 +711,9 @@ input:nth-of-type(3):checked~main#carousel {
     .feature {
         flex-direction: column;
     }
+
+    .feature img {
+        width: 350px;
+        height: auto;
+    }
 }
