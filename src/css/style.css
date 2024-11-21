@@ -716,4 +716,22 @@ input:nth-of-type(3):checked~main#carousel {
         width: 350px;
         height: auto;
     }
+
+    .feature-info {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-info h1 {
+        font-size: 30px;
+    }
+    
+    .feature-info p {
+        text-align: center;
+    }
+    
+    .feature-list img {
+        width: 24px;
+        height: 24px;
+    }
 }
