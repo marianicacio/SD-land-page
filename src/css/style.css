@@ -738,4 +738,22 @@ input:nth-of-type(3):checked~main#carousel {
         width: 24px;
         height: 24px;
     }
+
+    .plans {
+        flex-direction: column;
+    }
+
+    .global p {
+        width: 355px;
+    }
+
+    .global img {
+        width: 100%;
+    }
+
+    .redes img {
+        width: 60px;
+        height: auto;
+    }
+    
 }
