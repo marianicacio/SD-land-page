@@ -767,6 +767,8 @@ input:nth-of-type(3):checked~main#carousel {
     .subscribe {
         display: none;
     }
-    
-    
+
+    .footer-section {
+        height: 463.12px;
+    }    
 }
