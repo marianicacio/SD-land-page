@@ -656,7 +656,7 @@ input:nth-of-type(3):checked~main#carousel {
     text-decoration: none;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 820px) {
     nav {
         display: none;
     }
@@ -771,4 +771,22 @@ input:nth-of-type(3):checked~main#carousel {
     .footer-section {
         height: 463.12px;
     }    
+
+    .footer-info p {
+        width: 240px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    
+    .footer-info h3 {
+        font-size: 12px;
+    }
+    
+    .footer-column {
+       display: none;
+    }
+  
+    .footer {
+        margin-top: 100px;
+    }
 }
